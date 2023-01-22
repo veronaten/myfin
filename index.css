@@ -63,7 +63,7 @@ h1 {
   display: block;
   margin-top: 40px;
   height: 1px;
-  width: 1920px;
+  width: 100%;
   background-color: #e8ecef;
 }
 
@@ -167,4 +167,53 @@ h2 {
   background: #ffffff;
   border: 1px solid #e8ecef;
   border-radius: 3px;
+}
+
+.screen-item__nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 30px;
+}
+.screen-item__nav li {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #adb4bf;
+}
+
+.screen-item__nav li.active {
+  color: #333e50;
+}
+
+.screen-item__nav li.active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+  border-bottom: 3px solid #95ce5a;
+}
+
+.screen__border {
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #e8ecef;
+}
+
+.table-title {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text__table-title {
+  font-size: 12px;
+  color: #9299a2;
+}
+
+.screen__border__title {
+  margin-top: 12px;
 }
