@@ -304,3 +304,25 @@ h2 {
   font-weight: 400;
   color: #adb4bf;
 }
+
+.screen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text__calend_grey {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #9299a2;
+}
+
+.screen-item__row__calend {
+  margin-top: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
