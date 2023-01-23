@@ -97,6 +97,11 @@ h2 {
   background: #ffffff;
   border: 1px solid #e8ecef;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-item:hover {
+  box-shadow: 0px 5px 20px rgba(51, 62, 80, 0.15);
 }
 
 .card-item_long {
@@ -129,12 +134,35 @@ h2 {
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
+  cursor: pointer;
+}
+
+.button:hover {
+  filter: drop-shadow(0px 5px 8px rgba(149, 206, 90, 0.8));
+}
+
+.button:focus {
+  border: 1px solid #333e50;
+  box-shadow: 0px 5px 10px rgba(149, 206, 90, 0.4);
 }
 
 .button_white {
   background: #ffffff;
   border: 1px solid #dadee2;
   color: #333e50;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.button_white:hover {
+  border: 1px solid #333e50;
+  filter: none;
+  box-shadow: none;
+}
+
+.button_white:focus {
+  border: 1px solid #333e50;
+  filter: none;
   box-shadow: none;
 }
 
@@ -293,7 +321,7 @@ h2 {
 }
 
 .screen-item__footer__wrapper__calend {
-  margin-top: 23px;
+  margin-top: 11px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -332,4 +360,61 @@ h2 {
   justify-content: start;
   align-items: center;
   gap: 10px;
+}
+
+.text__screen-item__time {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.time_active {
+  padding: 3px 5px;
+  margin-left: 0;
+  margin-right: 0;
+  background: #ffe6e7;
+  border-radius: 50px;
+}
+
+.text__screen-item__descr {
+  margin-left: 15px;
+  position: relative;
+}
+
+.flag {
+  position: relative;
+}
+
+.red-dot::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -15px;
+  width: 5px;
+  height: 5px;
+  background: #ed2c35;
+  border-radius: 50%;
+}
+
+.orange-dot::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -15px;
+  width: 5px;
+  height: 5px;
+  background: #f4b207;
+  border-radius: 50%;
+}
+
+.green-dot::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -15px;
+  width: 5px;
+  height: 5px;
+  background: #95ce5a;
+  border-radius: 50%;
 }
