@@ -1,6 +1,7 @@
 body {
   max-width: 1920;
   padding-bottom: 40px;
+  font-family: "Lato", sans-serif;
 }
 
 .container {
@@ -88,7 +89,7 @@ h2 {
   margin-top: 20px;
   padding: 30px 0px 30px 30px;
   width: 49%;
-  height: 215px;
+  min-height: 215px;
   display: flex;
   justify-content: space-between;
   align-items: center;
