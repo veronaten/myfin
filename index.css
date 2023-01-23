@@ -292,6 +292,13 @@ h2 {
   align-items: center;
 }
 
+.screen-item__footer__wrapper__calend {
+  margin-top: 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .text-item__footer_blue {
   margin-right: 5px;
   font-size: 16px;
@@ -308,7 +315,7 @@ h2 {
 .screen {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
