@@ -439,3 +439,37 @@ h2 {
 a {
   text-decoration: none;
 }
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 992px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 576px;
+  }
+
+  .card-item,
+  .card-item_long,
+  .card-item_short {
+    width: 100%;
+  }
+
+  .screen-item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    max-width: 360px;
+  }
+}
