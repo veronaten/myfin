@@ -57,7 +57,7 @@ h1 {
   height: 45px;
   border: 1px solid #dadee2;
   border-radius: 3px;
-  color: #adb4bf;
+  color: #333e50;
   border-color: #adb4bf;
   font-size: 16px;
   font-weight: 400;
@@ -68,6 +68,10 @@ h1 {
 
 input[type="text"]::-webkit-input-placeholder {
   color: #adb4bf;
+}
+
+.input:focus {
+  background-color: #ffffff;
 }
 
 .border {
