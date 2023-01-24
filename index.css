@@ -224,6 +224,7 @@ h2 {
   font-weight: 400;
   text-transform: uppercase;
   color: #adb4bf;
+  cursor: pointer;
 }
 
 .screen-item__nav li.active {
