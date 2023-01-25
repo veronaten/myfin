@@ -50,6 +50,9 @@ h1 {
   margin-top: -25px;
   margin-right: 33px;
 }
+.search {
+  position: relative;
+}
 
 .input {
   padding: 15px 25px;
@@ -73,6 +76,18 @@ input[type="text"]::-webkit-input-placeholder {
 
 .input:focus {
   background-color: #ffffff;
+  border-color: #dadee2;
+}
+
+input[type="reset"] {
+  position: absolute;
+  top: 32px;
+  right: 15px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: url("./assets/icon/cross.png") no-repeat 50% 50%;
+  cursor: pointer;
 }
 
 .border {
